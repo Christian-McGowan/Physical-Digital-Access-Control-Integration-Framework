@@ -19,20 +19,6 @@ The repository includes a Python-based simulation, a multi-faceted log analyzer,
     * **Privilege Escalation Probing:** A pattern of failed attempts against resources just above a user's authorization level.
 * **Dynamic Simulation:** The simulation is more varied and realistic, generating a wider range of event types.
 
-## Repository Structure
-
-├── README.md                   # This overview document
-├── config.json                 # External configuration for users, zones, etc.
-├── main.py                     # Main execution script to run simulation and analysis
-├── access_control/
-│   ├── __init__.py
-│   ├── simulator.py            # Contains the Simulator class and logic
-│   └── analyzer.py             # Contains the LogAnalyzer class and logic
-├── logs/
-│   └── event_log.csv           # Generated log file (created on run)
-├── VULNERABILITY_ANALYSIS.md   # Detailed research on vulnerabilities and mitigation
-└── .gitignore                  # Standard Python .gitignore file
-
 ## How to Run the Project
 
 ### Prerequisites
