@@ -1,0 +1,60 @@
+{
+    "users": {
+        "user001": {
+            "name": "Alice",
+            "rfid_card": "RFID_A1B2",
+            "access_level": 3,
+            "ip_address": "192.168.1.10",
+            "department": "Finance"
+        },
+        "user002": {
+            "name": "Bob",
+            "rfid_card": "RFID_C3D4",
+            "access_level": 2,
+            "ip_address": "192.168.1.12",
+            "department": "Marketing"
+        },
+        "user003": {
+            "name": "Charlie",
+            "rfid_card": "RFID_E5F6",
+            "access_level": 1,
+            "ip_address": "10.0.0.5",
+            "department": "Sales"
+        },
+        "admin01": {
+            "name": "David",
+            "rfid_card": "RFID_ADMIN",
+            "access_level": 5,
+            "ip_address": "192.168.1.2",
+            "department": "IT"
+        }
+    },
+    "physical_zones": {
+        "zone_lobby": {
+            "name": "Main Lobby",
+            "required_level": 1
+        },
+        "zone_office": {
+            "name": "General Office Area",
+            "required_level": 2
+        },
+        "zone_datacenter": {
+            "name": "Data Center",
+            "required_level": 4
+        }
+    },
+    "digital_resources": {
+        "resource_fileshare": {
+            "name": "Company Fileshare",
+            "required_level": 2
+        },
+        "resource_payroll": {
+            "name": "Payroll System",
+            "required_level": 3
+        },
+        "resource_domain_controller": {
+            "name": "Domain Controller",
+            "required_level": 5
+        }
+    }
+}
