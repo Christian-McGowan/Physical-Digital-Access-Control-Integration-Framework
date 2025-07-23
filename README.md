@@ -21,7 +21,6 @@ The repository includes a Python-based simulation, a multi-faceted log analyzer,
 
 ## Repository Structure
 
-.
 ├── README.md                   # This overview document
 ├── config.json                 # External configuration for users, zones, etc.
 ├── main.py                     # Main execution script to run simulation and analysis
